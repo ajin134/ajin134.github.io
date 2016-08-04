@@ -1,0 +1,179 @@
+/*header*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "华文细黑", STHeiti Light, STXihei, "华文细黑", SimHei, "黑体" !important;
+}
+i{
+    font-style: normal;
+}
+.affix{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.fa{
+    display: inline-block;
+}
+.fa-home:before{
+    content: "\f015";
+}
+.fa-list-alt:before{
+    content: "\f022";
+}
+.fa-user:before{
+    content: "\f007";
+}
+.fa-shopping-cart:before{
+    content: "\f07a";
+}
+.fa-arrow-left:before{
+    content: "\f060";
+}
+.fa-angle-double-right:before{
+    content: "\f101";
+}
+.weibo{
+    font-family: iconfont;
+}
+.weibo::before{
+    content: "\e661";
+    font-size: 2em;
+    color: #4a8937;
+}
+.icon-gouwuche{
+    font-family: iconfont;
+}
+.icon-gouwuche:before { content: "\e611"; }
+
+.nav.navbar-right .glyphicon-shopping-cart::before{
+    transform: rotateY(180deg);
+}
+.glyphicon-shopping-cart:before{
+    display: inline-block;
+    transform: rotateY(180deg);
+}
+
+.navbar{
+    min-height:50px;
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+}
+.navbar.navbar-default{
+    background-color: #390c20;
+    border-color: #1e0611;
+    border-radius: 0px;
+    font-family: "华文细黑", STHeiti Light, STXihei, "华文细黑", SimHei, "黑体" !important;
+    color: white;
+}
+@media (max-width: 1200px) {
+    .navbar-nav > li > a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar .navbar-header .navbar-brand img{
+    max-height: 26px;
+    display: block;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav > li > a:focus{
+    color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    background-color: #1e0611;
+    color: white;
+}
+.nav.navbar-right .glyphicon-shopping-cart{
+    font: normal normal normal 14px/1 pyf-font;
+    font-family: pyf-font;
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1468596492'); /* IE9*/
+    src: url('../font/iconfont.eot?t=1468596492#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff?t=1468596492') format('woff'), /* chrome, firefox */
+    url('../font/iconfont.ttf?t=1468596492') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg?t=1468596492#iconfont') format('svg'); /* iOS 4.1- */
+}
+.middle-nav-ul-li{
+    padding-top: 15px;
+    color: #9cc71a;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom{
+    position: fixed;
+}
+.mobile-header-nav{
+    padding-top: 5px;
+    border-bottom: 1px solid #aeaeae;
+    text-align: center;
+    background-color: white;
+    font-size: 14px;
+}
+.mobile-header-nav a{
+    color: #390c20;
+}
+.mobile-nav{
+    padding: 10px 0;
+    font-size: 10px;
+}
+.mobile-nav-active{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #9dc919;
+    height: 35px;
+}
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 132px;
+}
+.footer table{
+    display: inline-block;
+}
+.footer .footer-block{
+    display: inline-block;
+    padding: 10px 20px;
+    height: 92px;
+}
+.footer .footer-block.not-last{
+    border-right: 1px solid #777777;
+}
+.footer .footer-block .telephone-image-size{
+    width: 160px;
+}
+.footer .footer-block .info{
+    font-size: 11px;
+}
+.footer .footer-block #brand-icons{
+    height: 40px;
+}
+.footer #icp{
+    font-size: 9px;
+    padding-top: 8px;
+    height: 20px;
+}
+.fa-weibo:before{
+    font: normal normal normal 14px/1 pyf-font;
+    content: "\f18a";
+}
+@media (max-width: 768px) {
+    .footer{
+        height: 62px;
+    }
+}
